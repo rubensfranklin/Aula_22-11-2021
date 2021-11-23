@@ -1,0 +1,33 @@
+public static void Main(string[] args)
+        {
+            Console.WriteLine("Olá mundo");
+
+            string nomeCompleto = "Paulo Ponciano";
+            short numeroPequeno = 0; //Variável short armazena números até 32767
+            int numeroNormal = 0; //Variável int armazena números até 2147483647
+            long numeroGrande = 0; //Variável long armazena números até 9223372036854775807
+            decimal numeroDecimal = 0;
+            double numeroDouble = 0; //Variável padrão do C# para números decimais
+            bool eVerdadeiro = true; //Valores aceitos: false ou true
+
+            //Cálculos aritméticos
+            int soma = 10 + 5;
+            int subtracao = 10 - 5;
+            int multiplicacao = 10 * 5;
+            int divisao = 10 / 5;
+            int resto = 10 % 3;
+
+            //Estruturas de decisão
+            if (10 > 5)
+            {
+                //TODO: bloco de execução de condicionamento verdadeiro do IF
+            }
+            else if (10 < 11)
+            {
+                //TODO: bloco de execução de condicionamento verdadeiro do ELSE IF
+            }
+            else
+            {
+                //TODO: bloco de execução de condicionamento FALSO
+            }
+        }
